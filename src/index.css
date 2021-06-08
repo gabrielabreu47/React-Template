@@ -1,0 +1,15 @@
+@font-face { 
+  font-family: Verlag-Light;
+  src: url('./assets/fonts/Verlag-Light-2.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: Verlag-Light!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
